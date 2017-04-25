@@ -1,21 +1,3 @@
-/*
- --------------------------------------------------------
-
- [ INSTA , Javscript ]
-
- Template Name : INSTA - Responsive Onepage Resume Template
-
- Version       :  1.0
-
- Author        :  Pixel_Factory
-
- Author URI    :  http://themeforest.net/user/Pixel_Factory
-
- Author Email  : h.nafees.anwar@gmail.com
-
- --------------------------------------------------------
- */
-
 /*  ------------------
  Remove Preloader
  ------------------  */
@@ -239,7 +221,7 @@ $(document).ready(function () {
 
         $.ajax({
             type: "POST",
-            url: "php/contact.php",
+            url: "https://formspree.io/bogdan.izdrail@gmail.com",
             data: $('#contactForm').serialize(),
             success: function (msg) {
                 if (msg == 'SEND') {
