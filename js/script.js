@@ -269,4 +269,20 @@ $(document).ready(function () {
         }
     });
 
+    ///animate
+
+    $( ".item" ).hover(function() {
+
+        if($(this).hasClass('pulse')){
+
+            $( this ).removeClass('pulse');
+
+        }else{
+
+            $( this ).addClass('pulse');
+
+        }
+
+    });
+
 });
